@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/dwyl/learn-travis.svg?branch=master)](https://travis-ci.org/dwyl/learn-travis)
+[![Build Status](https://travis-ci.org/ptxd/node-js-server-template.svg?branch=master)](https://travis-ci.org/github/ptxd/node-js-server-template)
