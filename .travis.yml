@@ -6,8 +6,9 @@ install:
 script:
   - npm start
   - npm test
+  - npm stop
 env:
   - $PORT=8081
-  - process.env.PORT=8080
+  # - process.env.PORT=8080
 after_success:
   - cat coverage/lcov.info | npx coveralls
