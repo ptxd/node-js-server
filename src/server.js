@@ -2,12 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors  = require('cors');
 const logger = require('morgan');
-const server_config = require('./.config'); 
 
 //** Initialize express ---------**
 const app = express();
-
-//Massive middleware initializer to postgressql
 
 
 //** Port numbers ---------**
