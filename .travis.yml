@@ -1,18 +1,13 @@
 language: node_js
 node_js:
-  - 15
-  - 14
-  - 13
-
-cache: npm
-
+  - stable
 install:
   - npm install
-# script:
-#   - npm run lint
-#   - npm run build
-#   - npm test
-start:
+script:
   - npm start
+  - npm test
+env:
+global:
+  - PORT=8081
 after_success:
   - cat coverage/lcov.info | npx coveralls
