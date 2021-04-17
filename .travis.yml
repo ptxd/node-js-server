@@ -9,5 +9,6 @@ script:
 env:
 global:
   - $PORT=8081
+  - process.env.PORT = 8080
 after_success:
   - cat coverage/lcov.info | npx coveralls
